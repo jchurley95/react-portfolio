@@ -1,6 +1,6 @@
 import jeopardy from './Images/jeopardy-background.png';
 import portfolio from './Images/portfolio-banner.png';
-
+import pizza from './Images/pizza-app.png';
 
 export default [
         {
@@ -22,13 +22,13 @@ export default [
             description: "Tech Portfolios made easy!",
             image: portfolio,
             githublink: 'https://github.com/jchurley95/portfolio-creator',
-            deployedlink: 'https://portfolio-creator.herokuapp.com/' // update with heroku
-        }//,
-        // {
-        //     name: 'React Pizza App',
-        //     description: "Not all heroes wear capes",
-        //     image: jeopardy,
-        //     githublink: 'https://github.com/jchurley95/react-pizza-app',
-        //     deployedlink: 'http://jeoparty.bitballoon.com' //update with heroku
-        // }
+            deployedlink: 'https://portfolio-creator.herokuapp.com/' 
+        },
+        {
+            name: 'React Pizza Store',
+            description: "Not all heroes wear capes",
+            image: pizza,
+            githublink: 'https://github.com/jchurley95/react-pizza-app',
+            deployedlink: 'https://jhurley-pizza.herokuapp.com/' 
+        }
     ]

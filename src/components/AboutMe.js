@@ -35,8 +35,6 @@ class AboutMe extends Component {
                         return <AboutMeInfo key={i} aboutMeData={aboutMeData}/>
                     })}
                 </div>
-                <button className="about-me-transition-button background-info-button"></button>
-                <button className="about-me-transition-button other-info-button"></button>
             </div>
         );
     }

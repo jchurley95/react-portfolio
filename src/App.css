@@ -1,0 +1,175 @@
+/* App Body CSS */
+.app-body {
+  text-align: center;
+  background-image: url('./Images/black_wood.jpg');
+  background-attachment: fixed;
+  color: white;
+}
+/* END App Body CSS */
+
+/* Container CSS */
+.container {
+  
+  background-position: center;
+  padding: 10px;
+}
+/* END Container CSS */
+
+/* Social Media Icon CSS */
+.social-media-icons-container {
+
+}
+.icon {
+  height: 35px;
+  width: 35px;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: white;
+  margin: 10px;
+}
+.github-icon {
+  background-color: white;
+}
+/* END Social Media Icon CSS */
+
+/* Navbar CSS */
+.navbar-container {
+  box-shadow: 2px 2px 10px black inset;
+  background-position: center;
+  display: flex;
+  background-image: url('./Images/wood_background.jpg');
+}
+.navbar-container a {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+/* END NavBar CSS */
+
+/* Splash CSS */
+.splash-container { 
+  display: flex;
+  justify-content: space-around;
+}
+.splash-container-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 620px;
+  width: 620px;
+  border-radius: 300px;
+  background-color: rgba(0,0,0,0.5);
+  border-top: 2px solid rgba(0,120,225,0.5);
+  border-left: 2px solid rgba(225,225,225,0.5);
+  border-right: 2px solid rgba(0,120,225,0.5);
+  position: center;
+  margin: 20px;
+}
+.splash-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Monoton', sans-serif;
+  font-size: 30px;
+  border-radius: 300px;
+  border-left: 2px solid rgba(225,225,225,0.5);
+  box-shadow: 5px 5px rgba(0,120,225,0.5);
+  height: 600px;
+  width: 600px;
+  background-color: rgba(0,0,0,0.4);
+  position: center;
+  margin: 20px;
+  color: rgba(0,225,225,0.9);
+  background-image: url('./Images/Blue-Wood.jpg');
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+/* END Splash CSS */
+
+/* About Me CSS */
+.about-me-container {
+  background-image: url('./Images/Blue-Wood.jpg');
+  box-shadow: 2px 2px 10px black inset;
+  color: rgba(225,225,225,0.8);
+  font-size: 20px;
+}
+.about-me-transitioning-info{
+
+}
+.about-me-branding-statement {
+  display: block;
+}
+.about-me-background-info {
+  display: block;
+}
+.about-me-other-info {
+  display: block;
+}
+.about-me-transition-button {
+  border: 2px solid black;
+  background-color: transparent;
+  box-shadow: 2px 2px rgba(0,0,0,0.6);
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin: 5px;
+  outline: none;
+}
+.branding-statement-button {
+  background-color: rgba(225,225,225,0.2);
+}
+.background-info-button {
+  background-color: rgba(0,0,0,0.6);
+}
+.other-info-button {
+  background-color: rgba(0,0,0,0.6);
+}
+/* END About Me CSS */
+
+/* Projects CSS */
+.project-list-container {
+  background-image: url('./Images/White-background.jpg');
+  opacity: 0.9;
+  box-shadow: 2px 2px 10px black inset;
+  color: black;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+.project-list {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.project-item {
+  border-radius: 300px;
+  height: 320px;
+  width: 320px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+}
+.project-item-github {
+
+}
+.project-item-deployed {
+
+}
+.project-image {
+  margin: 20px;
+  height: 100px;
+  width: 230px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  opacity: 0.8;
+  box-shadow: 5px 5px rgba(0,0,0,0.6);
+}
+.project-image:hover {
+  opacity: 1;
+}
+/* End Project CSS */
+
+/* Contact CSS */
+.contact-container {
+}
+/* End Contact CSS */

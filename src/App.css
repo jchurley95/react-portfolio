@@ -40,7 +40,7 @@
 
 /* Navbar CSS */
 .navbar-container {
-  box-shadow: 2px 2px 10px black inset;
+  box-shadow: 2px 2px 20px black inset;
   background-position: center;
   display: flex;
   background-image: url('./Images/wood_background.jpg');
@@ -48,7 +48,7 @@
 .navbar-container a {
   margin: 10px;
   padding: 10px;
-  color: white;
+  color: rgba(225,225,225,0.9);
   text-decoration: none;
 }
 /* END NavBar CSS */
@@ -71,7 +71,7 @@
   border-right: 2px solid rgba(0,120,225,0.5);
   position: center;
   margin: 20px;
-  box-shadow: 0 0 400px black inset;
+  box-shadow: 0 0 200px black inset;
 }
 .splash-container-content {
   display: flex;
@@ -97,7 +97,7 @@
 /* About Me CSS */
 .about-me-container {
   background-image: url('./Images/Blue-Wood.jpg');
-  box-shadow: 2px 2px 10px black inset;
+  box-shadow: 2px 2px 100px black inset;
   color: rgba(225,225,225,0.8);
   font-size: 20px;
   border-top-left-radius: 20px;
@@ -115,16 +115,6 @@
 .about-me-other-info {
   display: block;
 }
-.about-me-transition-button {
-  border: 2px solid black;
-  background-color: transparent;
-  box-shadow: 2px 2px rgba(0,0,0,0.6);
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
-  margin: 5px;
-  outline: none;
-}
 .branding-statement-button {
   background-color: rgba(225,225,225,0.2);
 }
@@ -140,12 +130,12 @@
 .project-list-container {
   background-image: url('./Images/White-background.jpg');
   opacity: 0.9;
-  box-shadow: 2px 2px 10px black inset;
+  box-shadow: 2px 2px 200px black inset;
   color: black;
   font-family: 'Monoton', sans-serif;
   color: rgba(0,10,225,0.7);
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 .project-list-container-title {
   font-size: 50px;

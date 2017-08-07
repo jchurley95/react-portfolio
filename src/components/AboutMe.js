@@ -14,7 +14,7 @@ class AboutMe extends Component {
                     },
                     {
                         className: "about-me-other-info",
-                        info:"Outside of coding, I spend my time playing in bands, playing for various rugby clubs, and doing freelance carpentry. I began doing contracting work with my dad as a teenager, and spent the majority the past year working full-time for a cabinet shop in Roswell. At the same time, I was taking 15 hour semesters working on a Computer Info Systems degree (with an App Development concentration) from Georgia State University. I currently have about 5 classes left in my CIS program, which focuses on Java programming and project management methodologies such as Scrum, XP, and Waterfall."
+                        info:"Outside of coding, I spend my time playing in bands, playing for various rugby clubs, and doing freelance carpentry. I began doing contracting work with my dad as a teenager, and spent the majority the past year working full-time for a cabinet shop in Roswell. At the same time, I was taking 15 hour semesters working my degree. I currently have about 5 classes left in my CIS program, which focuses on Java programming and project management methodologies such as Scrum, XP, and Waterfall."
                     }
                 ]
         }
@@ -29,7 +29,7 @@ class AboutMe extends Component {
         return (
             <div className="about-me-container container">
                 <a name="About"></a>
-                <p className="">I’m a Full Stack Web Developer dedicated to building useful, clean applications, and I am finishing a CIS degree at Georgia State University. I am currently enrolled in General Assembly's Web Development Immersive program, and I do a lot of freelance carpentry on the side.</p>
+                <p className="">I’m a Full Stack Web Developer dedicated to building useful, clean applications, and I do a lot of freelance carpentry on the side. I am currently enrolled in General Assembly's Web Development Immersive program, and I am finishing a Computer Info Systems degree at Georgia State University.</p>
                 <div className="about-me-list">
                     {this.state.aboutMeData.map((aboutMeData, i) => {
                         return <AboutMeInfo key={i} aboutMeData={aboutMeData}/>

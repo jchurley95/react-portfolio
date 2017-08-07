@@ -8,9 +8,9 @@ class Project extends Component {
         return (
                 <div className="project-item">
                     <a href={this.props.projectData.deployedlink}> <img className="project-image" src={this.props.projectData.image}/> </a>
-                    <h1> {this.props.projectData.name} </h1>
-                    <div> {this.props.projectData.description} </div>
                     <a href={this.props.projectData.githublink} className="project-item-github"> <img className="icon" src={ghub} /> </a>
+                    <div className="project-item-title"><h1> {this.props.projectData.name} </h1></div>
+                    <div className="project-description"> {this.props.projectData.description} </div>
                 </div>
         );
     }

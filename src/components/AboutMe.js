@@ -14,15 +14,15 @@ class AboutMe extends Component {
                     },
                     {
                         className: "about-me-other-info",
-                        info:"Outside of coding, I spend my time playing in bands, playing for various rugby clubs, and doing freelance carpentry. I began doing contracting work with my dad when I was a young teenager, and spent the majority the past year working full-time for a cabinet shop in Roswell. At the same time, I was taking 15 hour semesters working on a Computer Info Systems degree (with an App Development concentration) from Georgia State University. I currently have about 5 classes left in my CIS program, which focuses on Java and project management methodologies such as Scrum, XP, and Waterfall."
+                        info:"Outside of coding, I spend my time playing in bands, playing for various rugby clubs, and doing freelance carpentry. I began doing contracting work with my dad as a teenager, and spent the majority the past year working full-time for a cabinet shop in Roswell. At the same time, I was taking 15 hour semesters working on a Computer Info Systems degree (with an App Development concentration) from Georgia State University. I currently have about 5 classes left in my CIS program, which focuses on Java programming and project management methodologies such as Scrum, XP, and Waterfall."
                     }
                 ]
         }
     }
 
-    _slideThroughInfo = () => {
+    // _slideThroughInfo = () => {
         
-    }
+    // }
 
     render() {
         

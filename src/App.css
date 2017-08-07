@@ -22,10 +22,16 @@
 .icon {
   height: 35px;
   width: 35px;
-  border: 2px solid black;
   border-radius: 30px;
+  border: 1px solid white;
+  box-shadow: 0 0 10px 10px rgba(0,100,225,.5);
+  opacity: 0.6;
   background-color: white;
-  margin: 10px;
+  margin: 11px;
+  box-shadow: 
+}
+.icon:hover {
+  opacity: 1;
 }
 .github-icon {
   background-color: white;
@@ -43,6 +49,7 @@
   margin: 10px;
   padding: 10px;
   color: white;
+  text-decoration: none;
 }
 /* END NavBar CSS */
 
@@ -58,12 +65,13 @@
   height: 620px;
   width: 620px;
   border-radius: 300px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.2);
   border-top: 2px solid rgba(0,120,225,0.5);
   border-left: 2px solid rgba(225,225,225,0.5);
   border-right: 2px solid rgba(0,120,225,0.5);
   position: center;
   margin: 20px;
+  box-shadow: 0 0 400px black inset;
 }
 .splash-container-content {
   display: flex;
@@ -92,6 +100,8 @@
   box-shadow: 2px 2px 10px black inset;
   color: rgba(225,225,225,0.8);
   font-size: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .about-me-transitioning-info{
 
@@ -132,26 +142,34 @@
   opacity: 0.9;
   box-shadow: 2px 2px 10px black inset;
   color: black;
-  font-family: 'Allerta Stencil', sans-serif;
-  width: 100%;
+  font-family: 'Monoton', sans-serif;
+  color: rgba(0,10,225,0.7);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.project-list-container-title {
+  font-size: 50px;
 }
 .project-list {
   margin: 0 auto;
   padding: 10px;
   display: flex;
-  justify-content: space-around;
-  overflow: auto;
-  overflow-y: hidden;
   overflow-x: scroll;
+  
 }
 .project-item {
   border-radius: 300px;
-  height: 320px;
-  width: 320px;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(0,0,0,0.6);
-  color: white;
+  height: 500px;
+  width: 500px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 200px black inset;
+}
+.project-item-title {
+  
 }
 .project-item-github {
 
@@ -171,9 +189,64 @@
 .project-image:hover {
   opacity: 1;
 }
+.project-description {
+  font-family: 'Asap Condensed', sans-serif;
+}
 /* End Project CSS */
 
 /* Contact CSS */
 .contact-container {
 }
 /* End Contact CSS */
+
+@media only screen and (max-width: 500px) {
+    /* Splash CSS */
+  .splash-container { 
+    display: flex;
+    justify-content: space-around;
+  }
+  .splash-container-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    background-color: rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(0,120,225,0.5);
+    border-left: 2px solid rgba(225,225,225,0.5);
+    border-right: 2px solid rgba(0,120,225,0.5);
+    position: center;
+    margin: 20px;
+  }
+  .splash-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Monoton', sans-serif;
+    font-size: 13px;
+    border-radius: 300px;
+    border-left: 2px solid rgba(225,225,225,0.5);
+    box-shadow: 5px 5px rgba(0,120,225,0.5);
+    height: 280px;
+    width: 280px;
+    background-color: rgba(0,0,0,0.4);
+    position: center;
+    margin: 20px;
+    color: rgba(0,225,225,0.9);
+    background-image: url('./Images/Blue-Wood.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+/* END Splash CSS */
+
+  .icon {
+    margin: 3px;
+    box-shadow: 0 0 5px 5px rgba(0,100,225,.5);
+  }
+
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+}

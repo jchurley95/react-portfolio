@@ -5,7 +5,7 @@ import pizza from './Images/pizza-app.png';
 export default [
         {
             name: 'Jeopardy',
-            description: "Prove you're smarter than your friends!",
+            description: "First project at GA, practicing vanilla javascript and jquery.",
             image: jeopardy,
             githublink: 'https://github.com/jchurley95/Jeopardy',
             deployedlink: 'http://jeoparty.bitballoon.com'
@@ -19,14 +19,14 @@ export default [
         // },
         {
             name: 'Portfolio Creator',
-            description: "Tech Portfolios made easy!",
+            description: "Second project at GA, my first MEN-Stack app!",
             image: portfolio,
             githublink: 'https://github.com/jchurley95/portfolio-creator',
             deployedlink: 'https://portfolio-creator.herokuapp.com/' 
         },
         {
             name: 'React Pizza Store',
-            description: "Not all heroes wear capes",
+            description: "My first React app! This portfolio is my second.",
             image: pizza,
             githublink: 'https://github.com/jchurley95/react-pizza-app',
             deployedlink: 'https://jhurley-pizza.herokuapp.com/' 

@@ -79,6 +79,7 @@
   justify-content: center;
   font-family: 'Monoton', sans-serif;
   font-size: 30px;
+  text-decoration: ;
   border-radius: 300px;
   border-left: 2px solid rgba(225,225,225,0.5);
   box-shadow: 5px 5px rgba(0,120,225,0.5);
@@ -88,6 +89,15 @@
   position: center;
   margin: 20px;
   color: rgba(0,225,225,0.9);
+  background-image: url('./Images/Blue-Wood.jpg');
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  
+}
+.splash-container-content-full-stack {
+  border-radius: 300px;
+  border-left: 2px solid rgba(225,225,225,0.5);
+  color: white;
   background-image: url('./Images/Blue-Wood.jpg');
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
@@ -157,6 +167,7 @@
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 200px black inset;
+  
 }
 .project-item-title {
   
@@ -174,7 +185,7 @@
   border-top-left-radius: 300px;
   border-top-right-radius: 300px;
   opacity: 0.8;
-  box-shadow: 5px 5px rgba(0,0,0,0.6);
+  box-shadow: 0 0 10px black;
 }
 .project-image:hover {
   opacity: 1;

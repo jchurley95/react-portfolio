@@ -8,8 +8,10 @@ class Splash extends Component {
                 <div className="splash-container-circle">
                     <div className="splash-container-content">
                         <h1>Joey Hurley</h1>
-                        <h2>Full-Stack Web Developer</h2>
-                        <SocialMedia />
+                        <div className="splash-container-content-full-stack">
+                            <h2>Full-Stack Web Developer</h2>
+                            <SocialMedia />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -40,7 +40,7 @@ export default [
     },
     {
         name: 'Roamr',
-        description: "My first React app! This portfolio is my second.",
+        description: "Ruby on Rails app, world travel guide",
         image: pizza,
         githublink: 'https://github.com/jchurley95/project_vagabond',
         deployedlink: 'https://roam-r.herokuapp.com/' 

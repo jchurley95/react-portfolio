@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import SocialMedia from './components/SocialMedia';
 import projectData from './projectData';
+import { Link } from 'react-router-dom'
 
 class App extends Component {
   constructor() {
@@ -64,7 +65,10 @@ class App extends Component {
                             rotateDegrees = rotateDegrees + 60;
                             let currentStyle = {transform: "rotateY("+rotateDegrees+"deg) translateZ(218px)"}
                             return <div className="item" style={currentStyle}> 
-                                            <h3>{project.name}</h3>
+                                            <a href={project.deployedlink} className="project-link">
+                                              <h3>{project.name}</h3>
+                                              </a>
+                                              <h5>{project.description}</h5>
                                     </div>
                         })}
                     </div>

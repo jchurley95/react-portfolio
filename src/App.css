@@ -28,7 +28,6 @@
   opacity: 0.8;
   background-color: white;
   margin: 11px;
-  box-shadow: 
 }
 .icon:hover {
   opacity: 1;
@@ -80,7 +79,6 @@
   justify-content: center;
   font-family: 'Monoton', sans-serif;
   font-size: 30px;
-  text-decoration: ;
   border-radius: 300px;
   border-left: 2px solid rgba(225,225,225,0.5);
   box-shadow: 5px 5px rgba(225,225,225,0.3);
@@ -151,7 +149,7 @@
   width: 100%;
   position: absolute;
   transform-style: preserve-3d;
-  transition: transform 10s;
+  transition: transform 1s;
 }
 .item {
   display: block;
@@ -166,10 +164,11 @@
   text-align: center;
   box-shadow: 2px 5px 10px 1px black;
   text-shadow: 2px 2px black;
+  font-family: sans-serif;
 }
 .next, .prev {
   color: white;
-  background: blue;
+  background: black;
   position: absolute;
   padding: 1em 2em;
   cursor: pointer;
@@ -181,8 +180,8 @@
 /* .next:active, .prev:active {
   top: 104px;
 } */
-.next { right: 35em; }
-.prev { left: 35em; }
+.next { right: 5em; }
+.prev { left: 5em; }
 /* END carousel styling*/
 
 /* Projects CSS */
@@ -228,6 +227,10 @@
   border-top-right-radius: 300px;
   opacity: 0.8;
   box-shadow: 0 0 10px black;
+}
+.project-link {
+  text-decoration: none;
+  color: white;
 }
 .project-image:hover {
   opacity: 1;

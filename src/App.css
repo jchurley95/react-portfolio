@@ -138,6 +138,53 @@
 }
 /* END About Me CSS */
 
+/* carousel styling */
+.c-container {
+  margin: 0 auto;
+  width: 250px;
+  height: 70px;
+  position: relative;
+  perspective: 1000px;
+}
+.my-carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 10s;
+}
+.item {
+  display: block;
+  position: absolute;
+  background-image: url("./Images/Blue-Wood.jpg");
+  background-position: center;
+  width: 250px;
+  height: 135px;
+  text-align: center;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 2px 5px 10px 1px black;
+  text-shadow: 2px 2px black;
+}
+.next, .prev {
+  color: white;
+  background: blue;
+  position: absolute;
+  padding: 1em 2em;
+  cursor: pointer;
+  border-radius: 5px;
+  border-top: 1px solid #FFF;
+  transition: box-shadow 0.1s, top 0.1s;
+}
+.next:hover, .prev:hover { color: #000; }
+/* .next:active, .prev:active {
+  top: 104px;
+} */
+.next { right: 35em; }
+.prev { left: 35em; }
+/* END carousel styling*/
+
 /* Projects CSS */
 .project-list-container {
   background-image: url('./Images/White-background.jpg');
@@ -145,6 +192,7 @@
   box-shadow: 2px 2px 200px black inset;
   color: black;
   font-family: 'Monoton', sans-serif;
+  height: 500px;
   color: black;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -209,7 +257,7 @@
     height: 300px;
     width: 300px;
     border-radius: 300px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
     border-top: 2px solid rgba(0,120,225,0.5);
     border-left: 2px solid rgba(225,225,225,0.5);
     border-right: 2px solid rgba(0,120,225,0.5);

@@ -63,7 +63,7 @@ class App extends Component {
                     <div className="my-carousel" style={carouselStyle}>
                         {projectData.map((project) => {
                             rotateDegrees = rotateDegrees + 60;
-                            let currentStyle = {transform: "rotateY("+rotateDegrees+"deg) translateZ(218px)"}
+                            let currentStyle = {transform: "rotateY("+rotateDegrees+"deg) translateZ(217px)"}
                             return <div className="item" style={currentStyle}> 
                                             <a href={project.deployedlink} className="project-link">
                                               <h3>{project.name}</h3>
